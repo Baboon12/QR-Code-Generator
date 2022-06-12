@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon"
+        href="https://www.kindpng.com/picc/m/114-1146026_transparent-barcode-clipart-scan-qr-code-icon-png.png"
+        type="image/x-icon">
+</head>
+
+<style>
+    body {
+        font-size: 20px;
+        font-family: Ubuntu, sans-serif;
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2 class="text-center">QR Code Generator</h2>
+        <hr>
+        <p>Please Enter the URL and Click Generate</p>
+        <form action="/scan" class="form" method="POST">
+            <input type="text" name="url" class="form-control" required>
+            <br>
+            <button type="submit" value="get-qr" class="btn btn-secondary">Generate</button>
+        </form>
+    </div>
+</body>
+
+</html>

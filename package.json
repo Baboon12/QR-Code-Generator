@@ -1,0 +1,18 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A simple QR Code Generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhavya Sura",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "qrcode": "^1.5.0"
+  }
+}
